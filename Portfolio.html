@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Barre de navigation -->
+  <nav>
+    <div class="container">
+      <a href="#home" class="logo">Gab's dezigner</a>
+      <ul class="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section Accueil -->
+  <section id="home" class="home-section">
+    <div class="container">
+      <div class="intro">
+        <h1>Bienvenue dans ma page je suis <span class="highlight">Gabriel LOUM</span></h1>
+        <p>Compétences :
+            Illustrator
+            Photoshop
+            Audition
+            Premiere Pro
+            Cinéma 4D
+            After Effects
+            Indesign
+            OBS Studio
+            Wordpress
+            Html, Css, Javascript
+            Word
+            Excel
+            Power Point...</p>
+        <a href="#projects" class="btn">Voir mes projets</a>
+      </div>
+
+      <div class="avatar">
+        <img src="images/WhatsApp Image 2025-02-11 à 11.08.55_712244fd.jpg" alt="Votre Nom">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Projets -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Mes Projets</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/freepik__candid-image-photography-natural-textures-highly-r__49249.jpg" alt="Projet 1">
+          <h3>Projet 1</h3>
+          <p>Description du projet 1.</p>
+          <a href="#" class="btn">Voir plus</a>
+        </div>
+        <div class="project-card">
+          <img src="images/freepik__candid-image-photography-natural-textures-highly-r__49246.jpg" alt="Projet 2">
+          <h3>Projet 2</h3>
+          <p>Description du projet 2.</p>
+          <a href="#" class="btn">Voir plus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Compétences -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2>Mes Compétences</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML/CSS</h3>
+          <p>Maîtrise des standards web et des designs responsives.</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Création d'interactions dynamiques et d'animations fluides.</p>
+        </div>
+        <div class="skill-card">
+          <h3>UI/UX Design</h3>
+          <p>Conception d'interfaces utilisateur intuitives et esthétiques.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contactez-moi</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Sujet</label>
+          <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank" aria-label="GitHub">
+          <img src="images/téléchargement.png" alt="GitHub">
+        </a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+          <img src="images/link.png" alt="LinkedIn">
+        </a>
+        <a href="mailto:votre@email.com" aria-label="Email">
+          <img src="images/mai.jpg" alt="Email">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Gab's dezigner. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
